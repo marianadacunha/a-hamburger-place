@@ -1,14 +1,7 @@
-/* Use at least five different CSS selectors, within which you use a total of at least five different CSS properties */
-/* Add media queries */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    display: block;
-    background-image: url("../img/edward-franklin-Nb_Q-M3Cdzg-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    background-color: rgb(25, 25, 25);
 }
 
 nav {
@@ -33,11 +26,26 @@ nav span {
     text-transform: lowercase;
 }
 
+img {
+    margin: 60px 0px 0px 100px;
+    max-height: 80vh;
+}
+
+.reservation-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.reservation-text {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 115px 0px 50px;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    padding: 50px 0px 0px 220px;
     text-transform: lowercase;
 }
 
@@ -46,8 +54,8 @@ p {
     font-weight: 100;
     text-align: justify;
     color: rgb(255, 255, 255);
-    padding: 0px 300px 0px 220px;
     text-transform: lowercase;
+    padding: 10px 0px 0px 0px;
 }
 
 #book {
@@ -57,8 +65,9 @@ p {
     color: rgb(255, 255, 255, .8);
     background-color: transparent;
     border: 3px solid rgb(255, 255, 255, .8);
-    padding: 7px;
-    margin: 0px 0px 0px 220px;
+    width: 150px;
+    padding: 10px;
+    margin: 30px 0px 0px 0px;
     transition-duration: .4s;
 }
 
