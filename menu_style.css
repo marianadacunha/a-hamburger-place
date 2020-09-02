@@ -1,14 +1,7 @@
-/* Use at least five different CSS selectors, within which you use a total of at least five different CSS properties */
-/* Add media queries */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    display: block;
-    background-image: url("../img/edward-franklin-Nb_Q-M3Cdzg-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    background-color: rgb(25, 25, 25);
 }
 
 nav {
@@ -33,11 +26,23 @@ nav span {
     text-transform: lowercase;
 }
 
+.box-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 120px 0px 120px;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    padding: 50px 0px 0px 220px;
     text-transform: lowercase;
 }
 
@@ -46,8 +51,23 @@ p {
     font-weight: 100;
     text-align: justify;
     color: rgb(255, 255, 255);
-    padding: 0px 300px 0px 220px;
     text-transform: lowercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-photo {
+    max-height: 20vh;
+}
+
+ul li h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
+    font-size: 18px;
 }
 
 #book {
