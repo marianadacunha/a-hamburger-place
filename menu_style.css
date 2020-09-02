@@ -2,6 +2,13 @@
 
 body {
     background-color: rgb(25, 25, 25);
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    height: 90%;
+    width: 100%;
 }
 
 nav {
@@ -29,6 +36,10 @@ nav span {
 .box-content {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .menu-description {
@@ -36,7 +47,11 @@ nav span {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 120px 0px 120px;
+    padding: 0px 0px 0px 120px;
+}
+
+.menu-list {
+    padding: 0px 60px 0px 60px;
 }
 
 h1 {
@@ -56,6 +71,22 @@ p {
 
 ul {
     list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px 8px 0px;
+}
+
+hr.solid {
+    border-top: 1px solid rgb(255, 255, 255, .3);
+}
+
+.hamburger-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
 }
 
 .menu-photo {
