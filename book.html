@@ -42,6 +42,55 @@
         Nullam dignissim varius elementum. Aenean libero nunc, consectetur a lorem ut, egestas auctor dui. Donec
         pellentesque purus vel blandit elementum. Aenean sagittis
         facilisis lectus nec scelerisque. Fusce dolor lacus, scelerisque quis nunc vel, vulputate faucibus ex.</p>
+
+      <form action="new_book.html" method="GET">
+        <div class="from-group">
+          <label id="name-label" for="name">Name</label>
+          <input name="name" type="text">
+        </div>
+
+        <div class="from-group">
+          <label id="email-label" for="email">E-mail</label>
+          <input name="email" type="email">
+        </div>
+
+        <div class="from-group">
+          <label id="table-label">Would you like a table for how many people?</label>
+          <select name="table" required>
+            <option disabled selected value>Select a number</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6+">6 or more</option>
+        </div>
+
+        <div class="from-group">
+          <label id="diet-label">Does anyone have any dietary restrictions? <span>(check all that apply)</span></label>
+          <input name="diet" value="vegan" type="checkbox">
+          Vegan
+          </br>
+          <input name="diet" value="vegetarian" type="checkbox">
+          Vegetarian
+          </br>
+          <input name="diet" value="gluten-free" type="checkbox">
+          Gluten-Free
+          </br>
+          <input name="diet" value="kosher" type="checkbox">
+          Kosher
+          </br>
+          <input name="diet" value="lactose-intolerance" type="checkbox">
+          Lactose Intolerance
+          </br>
+        </div>
+
+        <div class="from-group">
+          <p>Any thing else we should know?</p>
+          <textarea name="comment" placeholder="Enter your comment here">
+          </textarea>
+        </div>
+      </form>
+
       <button id="book">Book a table</button>
     </div>
   </div>
