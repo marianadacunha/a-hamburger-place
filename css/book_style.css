@@ -27,8 +27,8 @@ nav span {
 }
 
 img {
-    margin: 45px 0px 0px 100px;
-    max-height: 80vh;
+    margin: 30px 0px 0px 100px;
+    max-height: 84vh;
 }
 
 .reservation-content {
@@ -39,7 +39,12 @@ img {
 .reservation-text {
     display: flex;
     flex-direction: column;
-    padding: 30px 115px 0px 50px;
+    padding: 15px 100px 0px 50px;
+}
+
+.diet-flex-box {
+    display: flex;
+    flex-direction: row;
 }
 
 h1 {
@@ -56,6 +61,7 @@ h1 {
     color: rgb(255, 255, 255);
     text-transform: lowercase;
     padding: 10px 0px 0px 0px;
+    margin-bottom: 10px;
 }
 
 label {
@@ -73,18 +79,11 @@ input, textarea {
     color: rgb(255, 255, 255, .8);
     background-color: transparent;
     border: 3px solid rgb(255, 255, 255, .8);
-    padding: 5px 300px 5px 0px;
+    padding: 4px 300px 2px 0px;
 }
 
-.diet-checkbox {
-    color: rgb(255, 255, 255, .8);
-    margin: 0px 0px 0px 10px;
-}
-
-.checkbox-flex-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#date {
+    padding: 4px 0px 2px 0px;
 }
 
 #book {
@@ -96,7 +95,7 @@ input, textarea {
     border: 3px solid rgb(255, 255, 255, .8);
     width: 150px;
     padding: 10px;
-    margin: 30px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     transition-duration: .4s;
 }
 

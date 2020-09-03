@@ -37,22 +37,26 @@
     <img src="img/book.jpg" alt="A table full of people eating hamburgers">
     <div class="reservation-text">
       <h1>Aenean egestas tellus et volutpat rutrum</h1>
-      <p id="text-content">Quisque congue nec nunc id aliquam. Nulla at diam ac eros tristique lobortis sed quis ante. Donec sodales velit
-        semper commodo dictum. Sed egestas faucibus est.
+      <p id="text-content">Quisque congue nec nunc id aliquam. Nulla at diam ac eros tristique lobortis sed quis ante.
         Nullam dignissim varius elementum. Aenean libero nunc, consectetur a lorem ut, egestas auctor dui. Donec
         pellentesque purus vel blandit elementum. Aenean sagittis
         facilisis lectus nec scelerisque. Fusce dolor lacus, scelerisque quis nunc vel, vulputate faucibus ex.</p>
 
-      <form action="new_book.html" method="GET">
+      <form>
         <div class="form-group">
           <label id="name-label" for="name">Name</label></br>
-          <input name="name" type="text">
+          <input name="name" type="text" id="name">
         </div>
 
         <div class="form-group">
           <label id="email-label" for="email">E-mail</label></br>
-          <input name="email" type="email">
+          <input name="email" type="email" id="email">
         </div>
+
+        <div class="form-group">
+        <label for="date">Date</label></br>
+        <input type="date" name="date" id="date">
+      </div>
 
         <div class="form-group">
           <label id="table-label">Would you like a table for how many people?</label>
@@ -67,41 +71,13 @@
         </div>
 
         <div class="form-group">
-          <label id="diet-label">Does anyone have any dietary restrictions? <span>(check all that apply)</span></label></br>
-          <div class="checkbox-flex-box">
-          <input name="diet" value="vegan" type="checkbox">
-          <p class="diet-checkbox">Vegan</p>
-          </div>
-
-          <div class="checkbox-flex-box">
-          <input name="diet" value="vegetarian" type="checkbox">
-          <p class="diet-checkbox">Vegetarian</p>
-        </div>
-
-        <div class="checkbox-flex-box">
-          <input name="diet" value="gluten-free" type="checkbox">
-          <p class="diet-checkbox">Gluten-Free</p>
-        </div>
-
-        <div class="checkbox-flex-box">
-          <input name="diet" value="kosher" type="checkbox">
-          <p class="diet-checkbox">Kosher</p>
-        </div>
-
-        <div class="checkbox-flex-box">
-          <input name="diet" value="lactose-intolerance" type="checkbox">
-          <p class="diet-checkbox">Lactose Intolerance</p>
-        </div>
-        </div>
-
-        <div class="form-group">
           <label>Anything else we should know?</label></br>
-          <textarea name="comment" placeholder="Enter your comment here">
+          <textarea name="comment">
           </textarea>
         </div>
       </form>
 
-      <button id="book">Book a table</button>
+      <button type="submit" id="book" onclick="validate()">Book a table</button>
     </div>
   </div>
 
