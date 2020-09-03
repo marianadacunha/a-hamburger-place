@@ -27,7 +27,7 @@ nav span {
 }
 
 img {
-    margin: 60px 0px 0px 100px;
+    margin: 45px 0px 0px 100px;
     max-height: 80vh;
 }
 
@@ -39,7 +39,7 @@ img {
 .reservation-text {
     display: flex;
     flex-direction: column;
-    padding: 60px 115px 0px 50px;
+    padding: 30px 115px 0px 50px;
 }
 
 h1 {
@@ -49,13 +49,42 @@ h1 {
     text-transform: lowercase;
 }
 
-p {
+#text-content {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-align: justify;
     color: rgb(255, 255, 255);
     text-transform: lowercase;
     padding: 10px 0px 0px 0px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+#table-label {
+    margin: 0px 10px 0px 0px;
+}
+
+input, textarea {
+    color: rgb(255, 255, 255, .8);
+    background-color: transparent;
+    border: 3px solid rgb(255, 255, 255, .8);
+    padding: 5px 300px 5px 0px;
+}
+
+.diet-checkbox {
+    color: rgb(255, 255, 255, .8);
+    margin: 0px 0px 0px 10px;
+}
+
+.checkbox-flex-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #book {
