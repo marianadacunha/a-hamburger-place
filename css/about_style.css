@@ -107,3 +107,30 @@ nav span {
     color: rgb(255, 255, 255, .4);
     transition-duration: .4s;
 }
+
+@media (max-width: 900px) {
+
+    .text-content-1, .text-content-2 {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #first-image, #second-image {
+        max-width: 90vw;
+        max-height: 100vh;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    #first-title, #second-title {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    #first-paragraph, #second-paragraph {
+        text-align: justify;
+        width: 80vw;
+        margin: auto;
+        padding: 0px 0px 20px 0px;
+    }
+}
