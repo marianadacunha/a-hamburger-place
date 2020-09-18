@@ -13,4 +13,5 @@ Implement in your homepage directory a website that must:
 
 # Preview
 You can see the live site clicking <a href="https://marianadacunha.github.io/a-hamburger-place/">here</a>.</br>
+
 ![Screenshot](https://i.ibb.co/dj9LYtN/Captura-de-tela-2020-09-11-18-00-57.png)
